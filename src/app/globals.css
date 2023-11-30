@@ -25,3 +25,10 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+pre.shiki {
+  padding: 0.8em;
+  width: 100%;
+  overflow-x: auto;
+  border-radius: 2px;
+}
