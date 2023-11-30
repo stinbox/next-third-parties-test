@@ -6,8 +6,7 @@ export default async function Home() {
       <section>
         <h1 className="text-xl mb-2 font-bold">普通の YouTube 埋め込み</h1>
         <iframe
-          className="aspect-video"
-          width="720"
+          className="aspect-video w-full max-w-[720px]"
           src="https://www.youtube.com/embed/cyFB7sB6CYs"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen
@@ -15,7 +14,7 @@ export default async function Home() {
       </section>
       <section>
         <h1 className="text-xl mb-2 font-bold">
-          <code>@next/third-parties</code> 経由の埋め込み
+          <code>@next/third-parties</code> の埋め込み
         </h1>
         <YouTubeEmbed
           videoid="cyFB7sB6CYs"
