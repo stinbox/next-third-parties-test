@@ -17,6 +17,11 @@ export default async function Home() {
           @next/third-parties で埋め込んだページへ
         </Link>
       </p>
+      <p>
+        <Link className="text-blue-500 hover:underline" href="/both-of-them">
+          両方を同時に埋め込んであるページへ
+        </Link>
+      </p>
     </main>
   );
 }
