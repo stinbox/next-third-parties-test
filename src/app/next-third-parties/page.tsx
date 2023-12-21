@@ -23,8 +23,8 @@ const Page: FC = async () => {
           <code>@next/third-parties</code> の埋め込み
         </h1>
         <YouTubeEmbed
-          videoid="cyFB7sB6CYs"
-          style="background-image: url('https://i.ytimg.com/vi/cyFB7sB6CYs/maxresdefault.jpg');"
+          videoid="Ux2k6X-sh8k"
+          style="background-image: url('https://i.ytimg.com/vi/Ux2k6X-sh8k/maxresdefault.jpg');"
         />
       </div>
       <div>
@@ -40,6 +40,6 @@ export default Page;
 const exampleCode = `import { YouTubeEmbed } from "@next/third-parties/google";
 
 <YouTubeEmbed
-  videoid="cyFB7sB6CYs"
-  style="background-image: url('https://i.ytimg.com/vi/cyFB7sB6CYs/maxresdefault.jpg');"
+  videoid="Ux2k6X-sh8k"
+  style="background-image: url('https://i.ytimg.com/vi/Ux2k6X-sh8k/maxresdefault.jpg');"
 />`;
