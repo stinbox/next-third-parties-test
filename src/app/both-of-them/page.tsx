@@ -22,7 +22,7 @@ const Page: FC = async () => {
         <h1 className="text-xl mb-2 font-bold">通常の iframe 埋め込み</h1>
         <iframe
           className="aspect-video w-full max-w-[720px]"
-          src="https://www.youtube.com/embed/cyFB7sB6CYs"
+          src="https://www.youtube-nocookie.com/embed/cyFB7sB6CYs"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen
         />
